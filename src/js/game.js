@@ -45,6 +45,5 @@ const playingGame = () => {
     }
 
     //Show the results - The Winner is players[currentPlayerIndex]
-    const playerlist = document.querySelector("#playerlist");
-
+    // Idee: const playerlist = document.querySelector("#playerlist");
 };
