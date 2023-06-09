@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>ColorGame</title>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
-<body onload="playingGame()">
+<body>
+<div class="results">
+    <button id="header">Nach 4 Spielrunden</button>
+    <ul>
+        <li>
+            <div class="player">
+                <span class="player-name">1. Carol</span>
+                <span class="player-score"></span>
+            </div>
+        </li>
+        <li>
+            <div class="player">
+                <span class="player-name">2. Alice</span>
+                <span class="player-score">2</span>
+            </div>
+        </li>
+        <li>
+            <div class="player">
+                <span class="player-name">3. Bob</span>
+                <span class="player-score">3</span>
+            </div>
+        </li>
+        <li>
+            <div class="player">
+                <span class="player-name">4. Mario</span>
+                <span class="player-score">3</span>
+            </div>
+        </li>
+    </ul>
+</div>
 
-    <script src="game.js"></script>
-    <canvas id="canvas" width="400" height="400"></canvas>
+<script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+
 </body>
 </html>
