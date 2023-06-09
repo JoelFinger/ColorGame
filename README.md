@@ -1,7 +1,5 @@
 # ColorGame
 
-Guten Tag Andreas
-
 Nachfolgend wurde das Vorgehen zur Umsetzung der Programmieraufgabe dokumentiert.
 
 Vorgehen:

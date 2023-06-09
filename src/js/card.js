@@ -4,8 +4,8 @@ import { pickRandomColor } from './color.js'
 // let isVisible = false;
 
 export class Card {
-    constructor() {
-        this.cardColor = pickRandomColor();
+    constructor(color) {
+        this.cardColor = color;
         this.isVisible = false;
     }
 
